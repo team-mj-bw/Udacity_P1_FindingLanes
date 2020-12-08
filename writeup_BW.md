@@ -8,6 +8,8 @@ My pipeline consisted of 5 steps:
 
 [Gray_with_Gauss]: ./test_videos_output/gray_with_gauss.png
 
+![alt text][Gray_with_Gauss]
+
 2. Apply canny function the output of gaussian blur
 
 
