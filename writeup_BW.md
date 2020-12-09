@@ -25,7 +25,7 @@ My pipeline consisted of 5 steps:
 
 4. Identify lane lines using hough line transformation and map them on picture
 
-![lane markers][lane_markers]
+![lane markers][lane_markers =180x320]
 
 This worked fine on the example pictures, but when I tried the videos the middle lanes were not well maped. Therefore after a while of playing around on the video I extracted frame by frame from the "yellow" video to work on the problematic frames. I noticed that the problem was only partially the configuration of the hough transformation but my area of interest was to narrow. It took me a while to get it to an acceptable point.
 
