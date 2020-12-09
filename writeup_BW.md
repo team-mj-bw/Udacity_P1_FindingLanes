@@ -3,7 +3,7 @@
 [Gray_with_Gauss]: ./test_videos_output/gray_with_gauss.png
 [canny]: ./test_videos_output/canny.png
 [area_of_interest]: ./test_videos_output/area_of_interest.png
-[final]: ./test_videos_output/final.png
+[final]: ./test_images/final.png
 [lane_markers]: ./test_videos_output/line_markings.jpg
 
 
