@@ -37,12 +37,12 @@ At the end the lines are still a bit jumpy, but for now I find the result suffic
 
 ![final_picture][final]
 
-
+---
 ### 2. Shortcomings of my pipeline
 
 Like mentioned before the lanes are still a bit jumpy and also the identification of lane segments could be further enhanced by playing around even more with the canny and hough parameters. But those are minor problems. The larger issues with my pipeline become apparent when trying the challenge video. Because this includes a curve my pipeline in current configuration is basically useless. The problem already starts with my current polygon to cut out the area of interest. When facing a more curved lane line in front of us, the region by definition cuts out large parts of one side of the lane. Also I am also not sure if the hough line transformation should be used for a more round lane shape. Lastly to get one line I am using straight line equations which also might be wrong.
 
-
+---
 ### 3. Suggest possible improvements to your pipeline
 
 I am sure my current pipeline and its input factors could be optimized further. Maybe you could implement an algorithm that automatically tries several configuration. The problem here is to automize the evaluation of the results. Maybe by analyzing the extracted hough lines in terms of total lenght of the lines and how much the gradient differs (measure of relevant lane lines) we could implement something helpful.
