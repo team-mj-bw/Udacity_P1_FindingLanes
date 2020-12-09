@@ -35,7 +35,7 @@ My approach was to first separate left and right lane pieces. Then I would take 
 
 At the end the lines are still a bit jumpy, but for now I find the result sufficient.
 
-![final][final]
+![final_picture][final]
 
 
 ### 2. Shortcomings of my pipeline
